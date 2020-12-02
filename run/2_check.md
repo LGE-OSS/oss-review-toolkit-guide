@@ -18,7 +18,7 @@ $docker run \
 ```
 - v 옵션 : 공유할 호스트 디렉토리와 컨테이너 디렉토리를 설정
 - c 옵션 : Config 파일 설정
-- analyze (...) : [ort의 실행 arguments](https://lge-oss.github.io/oss-review-toolkit/use/2_analyze.html)
+- analyze (...) : [ort의 실행 arguments](https://lge-oss.github.io/oss-review-toolkit-guide/use/1_analyze.html)
 
 ## Build한 소스 코드 기반 실행 방법
 ### 추가적인 Tool이 미설치된 것인지 확인
