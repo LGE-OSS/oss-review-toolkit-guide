@@ -3,7 +3,7 @@ sort: 2
 published: true
 ---
 # 실행 결과
-OSS Review Toolkit를 [실행 방법 가이드](2_analyze.html)에 따라 수행한 결과 파일을 살펴봅니다.   
+OSS Review Toolkit를 [실행 방법 가이드](1_analyze.html)에 따라 수행한 결과 파일을 살펴봅니다.   
 단, 보안 취약점을 조회하는 Advisor의 경우 [Nexus IQ Server](https://help.sonatype.com/iqserver)의 License 가 필요한 기능으로 무료로 사용 불가합니다. 따라서 실행 결과에 포함되지 않습니다.
 
 ```note
