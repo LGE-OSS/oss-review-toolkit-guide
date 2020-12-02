@@ -1,0 +1,19 @@
+base_url: /oss-review-toolkit-guide
+title: OSS Review Toolkit
+lang: en
+description: OSS Review Toolkit Korean Guide
+
+remote_theme: LGE-OSS/jekyll-rtd-theme
+
+readme_index:
+  with_frontmatter: true
+
+exclude:
+  - Makefile
+  - Gemfile
+  - Gemfile.lock
+
+plugins:
+  - jemoji
+  - jekyll-avatar
+  - jekyll-mentions
