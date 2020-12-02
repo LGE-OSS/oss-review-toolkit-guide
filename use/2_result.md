@@ -3,7 +3,7 @@ sort: 2
 published: true
 ---
 # 실행 결과
-OSS Review Toolkit를 [실행 방법 가이드](https://lge-oss.github.io/oss-review-toolkit/use/2_analyze.html)에 따라 수행한 결과 파일을 살펴봅니다.   
+OSS Review Toolkit를 [실행 방법 가이드](2_analyze.html)에 따라 수행한 결과 파일을 살펴봅니다.   
 단, 보안 취약점을 조회하는 Advisor의 경우 [Nexus IQ Server](https://help.sonatype.com/iqserver)의 License 가 필요한 기능으로 무료로 사용 불가합니다. 따라서 실행 결과에 포함되지 않습니다.
 
 ```note
@@ -31,7 +31,7 @@ $ tree -L 1 analyzer/
 analyzer/
 └── analyzer-result.yml
 ```
-- [analyzer-result.yml](https://github.com/LGE-OSS/oss-review-toolkit/blob/master/use/result_files/analyzer/analyzer-result.yml)
+- [analyzer-result.yml](result_files/analyzer/analyzer-result.yml)
 
 ### 추출 정보
 
@@ -55,9 +55,9 @@ scan/
 ├── native-scan-results
 └── scan-result.yml
 ```
-- [downloads](https://github.com/LGE-OSS/oss-review-toolkit/tree/master/use/result_files/scan/downloads)
-- [native-scan-results](https://github.com/LGE-OSS/oss-review-toolkit/tree/master/use/result_files/scan/native-scan-results)
-- [scan-result.yml](https://github.com/LGE-OSS/oss-review-toolkit/blob/master/use/result_files/scan/scan-result.yml)
+- [downloads](result_files/scan/downloads)
+- [native-scan-results](result_files/scan/native-scan-results)
+- [scan-result.yml](result_files/scan/scan-result.yml)
 
 ### Output 정보
 
@@ -76,7 +76,7 @@ $ tree -L 1 evaluate/
 evaluate/
 └── evaluation-result.yml
 ```
-- [evaluation-result.yml](https://github.com/LGE-OSS/oss-review-toolkit/blob/master/use/result_files/evaluate/evaluation-result.yml)
+- [evaluation-result.yml](result_files/evaluate/evaluation-result.yml)
 
 ### Output 정보
 
@@ -96,9 +96,9 @@ report/
    ├── scan-report-web-app.html
    └── scan-report.html
 ```
-- [NOTICE_default](https://github.com/LGE-OSS/oss-review-toolkit/blob/master/use/result_files/report/evaluate/NOTICE_default)
-- [scan-report-web-app.html](https://github.com/LGE-OSS/oss-review-toolkit/blob/master/use/result_files/report/evaluate/scan-report-web-app.html)
-- [scan-report.html](https://github.com/LGE-OSS/oss-review-toolkit/blob/master/use/result_files/report/evaluate/scan-report.html)
+- [NOTICE_default](result_files/report/evaluate/NOTICE_default)
+- [scan-report-web-app.html](result_files/report/evaluate/scan-report-web-app.html)
+- [scan-report.html](result_files/report/evaluate/scan-report.html)
 
 ### Output 정보
 
